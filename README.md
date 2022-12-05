@@ -1,4 +1,4 @@
-# Techical assignment
+# Technical assignment
 
 A Python command-line application that, given a list of website URLs as input, visits them
 and finds, extracts and outputs the websites’ logo image URLs and all phone numbers (e.g.
