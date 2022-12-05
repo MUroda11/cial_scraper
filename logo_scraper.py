@@ -8,7 +8,6 @@ def get_logo(url, soup):
     link_regex = re.compile(r'https?://\S+?/\S+?\.(?:jpg|jpeg|svg|png)', re.IGNORECASE)
     link_regex_2 = re.compile(r'.(?:jpg|jpeg|svg|png)', re.IGNORECASE)
     
-    # logo = soup.find_all(['img', 'a', 'id'], class_=regex, src=link_regex)
     try:
         images = soup.find_all(class_=logo_regex, src=link_regex)
         logo = images[0]['src']
